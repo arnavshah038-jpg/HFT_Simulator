@@ -17,6 +17,19 @@ A high-performance Limit Order Book (LOB) simulator built in C++ for High-Freque
 ##How to Build & Run
 1. Clone the repository:**
    ```bash
+   Performance Benchmarks
+Tested on Arch Linux (AMD Ryzen / Intel Core) with 10,000 simulated orders.
+| Metric | Result |
+| :--- | :--- |
+| **Total Orders** | 10,000 |
+| **Execution Time** | ~786,990 ns |
+| **Avg Latency per Order** | **78 ns** |
+** Key Optimizations:
+* *O(1) Order Matching:** Using HashMaps and Doubly Linked Lists.
+* *Low-Level C++:** Minimal memory overhead and cache-friendly structures.
+* *Custom CSV Parser:** Optimized for high-speed data ingestion.
+
+
 
 
 
