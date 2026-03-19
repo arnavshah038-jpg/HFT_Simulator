@@ -1,2 +1,14 @@
 build/
 __pycache__/
+# Binary files
+build/
+bin/
+
+# Data files (Generated)
+data/orders.csv
+orders.csv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
