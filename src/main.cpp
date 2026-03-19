@@ -7,8 +7,7 @@ int main() {
     OrderBook ob;
     
     // Data folder se orders uthayiye
-    std::vector<Order> orders = CSVReader::readOrders("../data/orders.csv");
-
+    std::vector<Order> orders = CSVReader::readOrders("data/orders.csv");
     if (orders.empty()) {
         std::cerr << "Error: No orders found in CSV file!" << std::endl;
         return 1;
